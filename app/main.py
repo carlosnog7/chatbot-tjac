@@ -5,7 +5,6 @@ from fastapi import FastAPI, Request
 # from langchain_google_genai import GoogleGenerativeAIEmbeddings
 # from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-# CONFIG
 load_dotenv()
 
 client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
