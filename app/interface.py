@@ -1,9 +1,10 @@
 import streamlit as st
 from main import pergunta_ia 
 
+# Configuração da página
 st.set_page_config(page_title="Chatbot TJAC", page_icon="⚖️", layout="centered")
 
-# estetica
+# Estética Customizada
 st.markdown("""
     <style>
     .main { background-color: #f5f5f5; }
@@ -11,30 +12,28 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("Chatbot TJAC ⚖️")
-st.caption("Interface testes")
+st.title("Protótipo Chatbot TJAC")
+st.caption("Interface de Testes")
 
-# inicializacao historico
+# Inicialização do histórico de mensagens
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# exibição histórico
+# Exibição do histórico
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-# interação
+# Interação do Usuário
 if prompt := st.chat_input("Como posso ajudar o Tribunal hoje?"):
-# pergunta do usuário
+    # Adiciona pergunta do usuário ao histórico
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
 
-# resposta da ia
+    # Resposta da IA com Spinner de carregamento
     with st.chat_message("assistant"):
-        with st.spinner("Consultando base de dados..."):
-#funcao pergunta 
+        with st.spinner("Gerando resposta..."):
             full_response = pergunta_ia(prompt)
-            
             st.markdown(full_response)
             st.session_state.messages.append({"role": "assistant", "content": full_response})
