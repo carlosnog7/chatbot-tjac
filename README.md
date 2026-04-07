@@ -15,6 +15,8 @@ Protótipo de chatbot para o Tribunal de Justiça do Acre, inspirado na proposta
 pip install -r requirements.txt
 ```
 
+## Execução
+
 Definir `GOOGLE_API_KEY`.
 
 API:
