@@ -1,0 +1,68 @@
+{
+  "documents": [
+    {
+      "type": "pdf",
+      "name": "COGER_TJAC_Cartilha_do_Cidadao_Servicos_Extrajudiciais.pdf",
+      "size": 755510,
+      "mtime": 1774970339.8509386
+    },
+    {
+      "type": "pdf",
+      "name": "Lei_Complementar_221_2010.pdf",
+      "size": 747230,
+      "mtime": 1774970275.1164863
+    },
+    {
+      "type": "pdf",
+      "name": "Manual-de-Orientacao-aos-Profissionais-que-atendem-Mulheres-em-Situacao-de-Vunerabilidade-ou-que-Manifestam-Intencao-em-Entregar-o-Filho-para-a-Adocao.pdf",
+      "size": 400775,
+      "mtime": 1775569380.6767647
+    },
+    {
+      "type": "pdf",
+      "name": "MAP-CEPRE-001.pdf",
+      "size": 675216,
+      "mtime": 1774970314.6653264
+    },
+    {
+      "type": "pdf",
+      "name": "Regimento_Interno_TJAC.pdf",
+      "size": 1520004,
+      "mtime": 1774969995.839162
+    },
+    {
+      "type": "pdf",
+      "name": "SEI_2117808_Edital_01_2025.pdf",
+      "size": 129768,
+      "mtime": 1774970685.0047686
+    },
+    {
+      "type": "pdf",
+      "name": "SEI_2161815_Edital_3_2025.pdf",
+      "size": 335035,
+      "mtime": 1775495936.4922893
+    },
+    {
+      "type": "pdf",
+      "name": "SEI_2227883_Edital_01_2025.pdf",
+      "size": 136043,
+      "mtime": 1774970677.3960004
+    },
+    {
+      "type": "pdf",
+      "name": "SEI_2265674_Edital_3_2025.pdf",
+      "size": 1247014,
+      "mtime": 1775496986.1734731
+    },
+    {
+      "type": "web",
+      "name": "Enderecos, Telefones e Balcao Virtual - TJAC",
+      "url": "https://www.tjac.jus.br/enderecos-e-telefones/"
+    },
+    {
+      "type": "web",
+      "name": "Orgaos de Composicao Atual - TJAC",
+      "url": "https://www.tjac.jus.br/adm/orgaos-composicao-atual/"
+    }
+  ]
+}
