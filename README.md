@@ -9,23 +9,21 @@ Protótipo de chatbot para o Tribunal de Justiça do Acre, inspirado na proposta
 - `app/interface.py`: interface de testes em Streamlit.
 - `docs_tjac/`: PDFs usados como base de conhecimento.
 
-## Como executar
-
-Instale as dependências:
+## Dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Defina a variável `GOOGLE_API_KEY` no arquivo `.env`.
+Definir `GOOGLE_API_KEY`.
 
-Suba a API:
+API:
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-Abra a interface de testes:
+INTERFACE:
 
 ```bash
 streamlit run app/interface.py
